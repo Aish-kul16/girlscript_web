@@ -1,1 +1,36 @@
 /* Your custom css code goes here */
+.probootstrap-search {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.probootstrap-search.active {
+  display: block;
+}
+
+.probootstrap-search form {
+  width: auto !important;
+}
+
+.probootstrap-search input[type="search"] {
+  width: 780px !important;        
+  height: 46px !important;
+
+  padding: 0 16px !important;
+  border-radius: 9999px !important;
+  border: 1px solid #ddd !important;
+
+  font-size: 18px !important;
+  line-height: 36px !important;
+
+  background: #fff !important;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15) !important;
+}
+
+.probootstrap-search input[type="search"]::placeholder {
+  font-size: 18px !important;
+}
+
